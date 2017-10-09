@@ -11,6 +11,7 @@ Configuration
 https://api.telegram.org/bot<token>/setWebhook?url=<url>
 ```
 where <token> your bot token and <url> your deployed url.
+
 5. Connect to your postgreSQL and write SQL queries:
 ```
 CREATE TABLE files (id serial,username varchar(50),chat_id varchar(50), file_id varchar(300), type varchar(1), json varchar(2000));
